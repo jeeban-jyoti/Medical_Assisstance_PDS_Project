@@ -69,7 +69,7 @@ int main() {
 
     // Construct the command to execute the Python script with the input argument
     char command[200];
-    sprintf(command, "python3 test.py \"%s\"", input);
+    sprintf(command, "python location_finder.py \"%s\"", input);
 
     // Open a pipe to execute the command and read its output
     fp = popen(command, "r");
