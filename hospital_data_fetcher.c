@@ -15,7 +15,7 @@ void find_nearest_hospitals(char * latitude, char * longitude) {
     CURLcode res;
     char overpass_url[] = "http://overpass-api.de/api/interpreter";
     char overpass_query[1024];
-    char response_data[102400] = ""; // Buffer to store response data
+    char response_data[1048576] = ""; // Buffer to store response data
 
     int radius;
     printf("enter radius: ");
@@ -26,6 +26,7 @@ void find_nearest_hospitals(char * latitude, char * longitude) {
     if (curl) {
         // Construct Overpass query to find hospitals within a radius of 5km
         sprintf(overpass_query, "[out:json];node['amenity'='hospital'](around:%d,%s,%s);out;",radius, latitude, longitude);
+        printf("[out:json];node['amenity'='hospital'](around:%d,%s,%s);out;",radius, latitude, longitude);
 
         // Set the URL
         curl_easy_setopt(curl, CURLOPT_URL, overpass_url);

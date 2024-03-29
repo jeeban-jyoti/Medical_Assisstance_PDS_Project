@@ -47,7 +47,7 @@ int readFromFile() {
 
 void readSpecificLineFromFile(int LINE_NUMBER) {
     FILE *file, *fp;
-    char line[1000]; // Assuming maximum line length is 1000 characters
+    char line[100]; // Assuming maximum line length is 1000 characters
     char output[100];
     char lonlat[2][20];
     int lineNumber = 1;
@@ -89,10 +89,11 @@ void readSpecificLineFromFile(int LINE_NUMBER) {
         printf("%s", output);
 
         for(int i = 0; i < strlen(output) && i < 19;i++){
+            if(output[i] == '\0' || output[i] == '\n'){
+                continue;
+            }
             lonlat[c][i] = output[i];
         }
-
-        lonlat[c][19] = '\0';
         c++;
     }
 

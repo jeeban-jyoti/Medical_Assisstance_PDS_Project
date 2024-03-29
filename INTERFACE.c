@@ -32,15 +32,19 @@ void callSearch(){
         printf("%s", output);
 
         for(int i = 0; i < strlen(output) && i < 19;i++){
+            if(output[i] == '\0' || output[i] == '\n'){
+                printf("%c--", output[i]);
+                continue;
+            }
             lonlat[c][i] = output[i];
         }
-
-        lonlat[c][19] = '\0';
         c++;
     }
 
     // Close the pipe
     pclose(fp);
+    printf("%s\n", lonlat[0]);
+    printf("%s\n", lonlat[1]);
 
     // Find nearest hospitals
     find_nearest_hospitals(lonlat[0],lonlat[1]);
@@ -81,7 +85,7 @@ int main(){
     int i = 1;
     while (i != 0){
         printf("\n Choices:");
-        printf("\n 1 for Search for Doctors, Medical shops and Hospitals\n 2 for Your recent Searches\n 3 for Exit\n Enter your choice:");
+        printf("\n 1 for Search for Hospitals\n 2 for Your recent Searches\n 3 for Exit\n Enter your choice:");
         scanf("%d", &choice);
 
         switch (choice){
