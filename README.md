@@ -52,7 +52,7 @@ To run the project type
 - **FileOperations.c:** Contains functions for file operations such as reading from and writing to files.
 - **location_finder.py:** Python script for finding the latitude and longitude coordinates of a location based on its name.
 - **hospital_data_fetcher.c:** Contains function for fetching data of hospital from api and printing it to the console.
-- - **INTERFACE.c**: Contains the main program logic and user interface implementation.
+- **INTERFACE.c**: Contains the main program logic and user interface implementation.
 
 ## Note
 - Ensure that all necessary files, including "FileOperations.c", "location_finder.py", "hospital_data_fetcher.c" and "INTERFACE.c" are present in the same directory as the main program file.
