@@ -28,6 +28,13 @@ This is a Medical Assistance Project designed to assist users in finding nearby 
 5. Repeat steps 2-4 as needed.
 6. Enter '0' to exit the program.
 
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
 ## Files
 - **FileOperations.c:** Contains functions for file operations such as reading from and writing to files.
 - **location_finder.py:** Python script for finding the latitude and longitude coordinates of a location based on its name.
