@@ -26,7 +26,6 @@ void find_nearest_hospitals(char * latitude, char * longitude) {
     if (curl) {
         // Construct Overpass query to find hospitals within a radius of 5km
         sprintf(overpass_query, "[out:json];node['amenity'='hospital'](around:%d,%s,%s);out;",radius, latitude, longitude);
-        printf("[out:json];node['amenity'='hospital'](around:%d,%s,%s);out;",radius, latitude, longitude);
 
         // Set the URL
         curl_easy_setopt(curl, CURLOPT_URL, overpass_url);
