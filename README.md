@@ -1,4 +1,4 @@
-# Medical Assistance Project README
+# Medical Assistance PDS Project
 
 ## Introduction
 This is a Medical Assistance Project designed to assist users in finding nearby hospitals and accessing their contact details and addresses in case of emergencies. The project is primarily aimed at students and other citizens who may be unfamiliar with the area or unaware of local medical facilities.
@@ -30,18 +30,20 @@ This is a Medical Assistance Project designed to assist users in finding nearby 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="793" alt="Screenshot 2024-04-04 at 11 44 29 PM" src="https://github.com/jeeban-jyoti/Medical_Assisstance_PDS_Project/assets/72793803/c8d40585-81ba-49c0-b856-338b7a0680a5">
+<img width="658" alt="Screenshot 2024-04-04 at 11 39 20 PM" src="https://github.com/jeeban-jyoti/Medical_Assisstance_PDS_Project/assets/72793803/7a8ff186-c67c-4d6a-8ad7-6e917cf84b90">
+<img width="659" alt="Screenshot 2024-04-04 at 11 41 51 PM" src="https://github.com/jeeban-jyoti/Medical_Assisstance_PDS_Project/assets/72793803/3f7207d9-6b06-4712-8270-d4ee8780b0e8">
+<img width="658" alt="Screenshot 2024-04-04 at 11 43 00 PM" src="https://github.com/jeeban-jyoti/Medical_Assisstance_PDS_Project/assets/72793803/ab569dc7-3c4e-4e51-baf7-01cc90a6b14a">
 
 
 ## Files
 - **FileOperations.c:** Contains functions for file operations such as reading from and writing to files.
 - **location_finder.py:** Python script for finding the latitude and longitude coordinates of a location based on its name.
 - **hospital_data_fetcher.c:** Contains function for fetching data of hospital from api and printing it to the console.
+- - **INTERFACE.c**: Contains the main program logic and user interface implementation.
 
 ## Note
-- Ensure that all necessary files, including "FileOperations.c", "hospital_data_fetcher.c" and "location_finder.py," are present in the same directory as the main program file.
+- Ensure that all necessary files, including "FileOperations.c", "location_finder.py", "hospital_data_fetcher.c" and "INTERFACE.c" are present in the same directory as the main program file.
 - The program relies on the correct functioning of the Python script "location_finder.py" to obtain latitude and longitude coordinates. Ensure that the script is correctly implemented and accessible.
 
 This project was developed as part of a Programming and Data Structures course and is intended for educational purposes only.
