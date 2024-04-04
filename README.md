@@ -13,6 +13,18 @@ This is a Medical Assistance Project designed to assist users in finding nearby 
 - **Search for Hospitals:** Users can search for hospitals by entering the name of a place. The program then utilizes a Python script to find the latitude and longitude coordinates of the location and uses them to locate nearby hospitals.
 - **Recent Searches History:** Users can view their recent searches along with the hospital data obtained during those searches.
 
+## Deployment
+
+To compile the C program get inside the project folder and type
+
+```bash
+  gcc INTERFACE.c -o INTERFACE -lcurl
+```
+To run the project type
+```bash
+  ./INTERFACE
+```
+
 ## How to Use
 1. Run the program.
 2. Choose from the following options:
