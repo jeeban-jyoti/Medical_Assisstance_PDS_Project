@@ -77,7 +77,7 @@ int main(){
     printf("\n                                        JEEBAN JYOTI PATRA(23CS01026)                                    ");
     printf("\n                                           SHATADEEP DE(23CE01052)                                       ");
     printf("\n                                           ADITYAA SAHA(23CS01002)                                       ");
-    printf("\n                                          NILABJA MONDAL(23MM02008)                                      ");
+    printf("\n                                          NILABJA MANDAL(23MM02008)                                      ");
     printf("\n\n*********************************************************************************************************\n");
 
     int choice;
