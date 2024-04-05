@@ -5,9 +5,9 @@ This is a Medical Assistance Project designed to assist users in finding nearby 
 
 ## Contributors
 - [**Jeeban Jyoti Patra** (23CS01026)](https://github.com/jeeban-jyoti)
-- [**Shatadeep De** (23CE01052)](https://github.com/jeeban-jyoti)
-- [**Adityaa Saha** (23CS01002)](https://github.com/jeeban-jyoti)
-- [**Nilabja Mondal** (23MM02008)](https://github.com/jeeban-jyoti)
+- [**Shatadeep De** (23CE01052)](https://github.com/CodeVenger1)
+- [**Adityaa Saha** (23CS01002)](https://github.com/ats017)
+- [**Nilabja Mondal** (23MM02008)](https://github.com/Nil1204)
 
 ## Features
 - **Search for Hospitals:** Users can search for hospitals by entering the name of a place. The program then utilizes a Python script to find the latitude and longitude coordinates of the location and uses them to locate nearby hospitals.
